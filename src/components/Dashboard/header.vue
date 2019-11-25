@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="">
    <header class="main-header">
                 <a href="index-2.html" class="logo"> <!-- Logo -->
                     <span class="logo-mini">
@@ -266,7 +266,7 @@
                         </ul>
                     </div>
                 </nav>
-            </header>
+        </header>
   </div>
 </template>
 

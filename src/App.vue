@@ -1,25 +1,33 @@
 <template>
-  <div id="app">
+  <!-- <div id="s"> -->
     <div class="hold-transition sidebar-mini">
-        <!-- Site wrapper -->
-        <div class="wrapper">
-          <Header />
+        <div class="">
+          <Header></Header>
+          <sideBar></sideBar>
+          <div class="content-wrapper">
+          <router-view>
+          </router-view>
+          </div>
         </div>
     </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
-import Header from './components/dashboard/header.vue'
+import Header from './components/dashboard/header.vue';
+import sideBar from './components/dashboard/sidebar.vue';
+
 
 export default {
-  name: 'Header',
+  name: 'app',
   components: {
-    Header
+    Header,
+    sideBar
   }
 }
 </script>
 
-<style>
+<style scoped>
+
 
 </style>
