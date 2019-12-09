@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Header from './components/dashboard/header.vue';
-import sideBar from './components/dashboard/sidebar.vue';
+import Header from './components/Dashboard/header.vue';
+import sideBar from './components/Dashboard/sidebar.vue';
 
 
 export default {

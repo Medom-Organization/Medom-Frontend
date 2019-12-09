@@ -1,6 +1,6 @@
-import Dashboard from './components/dashboard/wrapper/dashboard.vue';
-import addDoctor from './components/dashboard/wrapper/Doctors/addDoctor.vue';
-import listDoctor from './components/dashboard/wrapper/Doctors/doctorsList.vue';
+import Dashboard from './components/Dashboard/wrapper/dashboard.vue'
+import addDoctor from './components/Dashboard/wrapper/Doctors/addDoctor.vue';
+import listDoctor from './components/Dashboard/wrapper/Doctors/doctorsList.vue';
 
 
 export default [
